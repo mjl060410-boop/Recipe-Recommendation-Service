@@ -875,3 +875,11 @@ with tab4:
                             save_trash(new_trash)
                             st.toast("기록이 영구 삭제되었습니다.", icon="❌")
                             st.rerun()
+                            import streamlit as st
+
+st.write("Secrets 확인")
+
+try:
+    st.write(st.secrets.keys())
+except Exception as e:
+    st.error(e)
