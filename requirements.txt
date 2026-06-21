@@ -1,4 +1,0 @@
-streamlit>=1.30
-pydantic>=2.0
-google-generativeai
-python-dotenv
